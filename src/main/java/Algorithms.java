@@ -5,11 +5,12 @@
  * @since 01.03.2020
  */
 final class Algorithms {
-    public void nwd(int a, int b) {
-
+    public int nwd(int a, int b) {
+        return 0;
     }
-    public void abs(int wartosc){
 
+    public int abs(int wartosc) {
+        return 0;
     }
 
 }
