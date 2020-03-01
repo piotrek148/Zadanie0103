@@ -28,6 +28,11 @@ class AlgorithmsTest {
         int result = algorithms.abs(-5);
         assertEquals(result, 5);
     }
+    @Test
+    public void isPalindrom(){
+        boolean result = algorithms.isPalindrom("kajak");
+        assertEquals(result, true);
+    }
 
 
 }

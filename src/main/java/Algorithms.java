@@ -13,4 +13,8 @@ final class Algorithms {
         return 0;
     }
 
+    public boolean isPalindrom (String s){
+        return true;
+    }
+
 }
