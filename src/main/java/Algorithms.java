@@ -22,4 +22,7 @@ final class Algorithms {
         return lista.stream()
                 .reduce((a,b)->a+b);
     }
+    public boolean isPalindrom (String s){
+        return true;
+    }
 }
