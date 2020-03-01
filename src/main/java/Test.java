@@ -4,6 +4,5 @@
  * @author dagmarakitkowska@gmail.com
  * @since 01.03.2020
  */
-final class Algorithms {
-
+final class Test {
 }
