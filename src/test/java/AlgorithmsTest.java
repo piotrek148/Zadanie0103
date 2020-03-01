@@ -1,3 +1,6 @@
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -6,6 +9,25 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author dagmarakitkowska@gmail.com
  * @since 01.03.2020
  */
+
 class AlgorithmsTest {
+
+    private Algorithms algorithms;
+
+    @BeforeEach
+    public void setup(){
+        algorithms = new Algorithms();
+    }
+    @Test
+    public void testNWD(){
+        int result = algorithms.nwd(2,3);
+        assertEquals(result, 6);
+    }
+    @Test
+    public void testABS(){
+        int result = algorithms.abs(-5);
+        assertEquals(result, 5);
+    }
+
 
 }
