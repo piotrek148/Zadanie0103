@@ -9,11 +9,11 @@ import java.util.OptionalLong;
  * @since 01.03.2020
  */
 final class Algorithms {
-    public int nwd(int a, int b) {
+    public static int nwd(int a, int b) {
         return 0;
     }
 
-    public int abs(int wartosc) {
+    public static int abs(int wartosc) {
         return 0;
     }
 
@@ -22,7 +22,9 @@ final class Algorithms {
         return lista.stream()
                 .reduce((a,b)->a+b);
     }
-    public boolean isPalindrom (String s){
+
+    public static boolean isPalindrom (String s){
         return true;
     }
+
 }
